@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import { CartProvider } from 'react-use-cart';
 import './App.css';
+import Header from './Header/Header';
+import Shirts from './Shirts/Shirts';
+import ShirtsDetail from './Shirts/ShirtsDetail';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CartProvider>
+      <Router>
+      
+        <div className="container">
+        <Routes>
+            <Route path="/" element={<Shirts />} />
+            <Route path="/dash" element={<ShirtsDetail />} />
+        </Routes>
+        </div>
+        
+      </Router>
+      </CartProvider>
     </div>
   );
 }
