@@ -1,17 +1,17 @@
 export const products =[
     {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:377 , OriginalP:'Rs.1399' ,id:3, Discount:'40% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/6/1/d3d53bad-db9c-49b3-bfb3-3f51caa940471622551979985-1.jpg', Gender:'MEN' , Brand:'roadster',Size:''},
-    {name:'Mast & Harbour' , sub:' Semi-Sheer Casual Shirt' ,id:1, price:377 , OriginalP:'Rs.1399' , Discount:'50% OFF' , rating:'4.3',Fit:'Regular',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13879734/2021/4/5/ba48fefb-1911-4385-bbc5-f5170636b30e1617602148127-Mast--Harbour-Women-Shirts-8401617602146888-1.jpg',Gender:'WOMEN',Brand:'roadster',Sort:'Recommended'},
+    {name:'Mast & Harbour' , sub:' Semi-Sheer Casual Shirt' ,id:1, price:377 , OriginalP:'Rs.1399' , Discount:'50% OFF' , rating:'4.3',Fit:'Regular',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/13879734/2021/4/5/ba48fefb-1911-4385-bbc5-f5170636b30e1617602148127-Mast--Harbour-Women-Shirts-8401617602146888-1.jpg',Gender:'Women',Brand:'roadster',Sort:'Recommended'},
     {name:'RARE RABBIT' , sub:' Faded Casual Shirt' , price:377 , OriginalP:'MRP ₹3499' , Discount:'10% OFF' , rating:'4.4',Fit:'Faded',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/22410696/2023/3/18/d84da29f-bceb-4e1c-ab62-5e478df209581679082621862RARERABBITMenGreenSlimFitOpaqueFadedCasualShirt1.jpg',id:5,Gender:'MEN',Brand:'van heusen',Sort:'Recommended'},
     {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:377 , OriginalP:'Rs.1399' , Discount:'10% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN',Brand:'indian terrain',Sort:'Whats New'},
-    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:377 , OriginalP:'Rs.1399' , Discount:'10% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/7208127/2018/8/23/5dbc44c4-d171-4559-9944-37ce3dd1437f1535005234548-na-6341535005234394-1.jpg',Gender:'WOMEN',id:2,Brand:'indian terrain',Sort:'Popularity'},
-    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:999 , OriginalP:'Rs.1399' , Discount:'20% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN' , Brand:'van heusen',Sort:'Recommended'},
-    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:999 , OriginalP:'Rs.1399' , Discount:'30% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/7208127/2018/8/23/5dbc44c4-d171-4559-9944-37ce3dd1437f1535005234548-na-6341535005234394-1.jpg',Gender:'WOMEN',id:2,Brand:'van heusen',Sort:'Popularity'},
-    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:3777 , OriginalP:'Rs.1399' , Discount:'40% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN',Brand:'roadster'},
-    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:999 , OriginalP:'Rs.1399' , Discount:'30% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN',Brand:'indian terrain',Sort:'Recommended'},
+    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:377 , OriginalP:'Rs.1399' , Discount:'10% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/7208127/2018/8/23/5dbc44c4-d171-4559-9944-37ce3dd1437f1535005234548-na-6341535005234394-1.jpg',Gender:'Women',id:2,Brand:'indian terrain',Sort:'Popularity'},
+    {name:'Nike 12' , sub:'Slim Fit Casual Shirt' , price:1500 , OriginalP:'Rs.1399' , Discount:'20% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN' , Brand:'van heusen',Sort:'Recommended'},
+    {name:'ADI' , sub:'Slim Fit Casual Shirt' , price:1500 , OriginalP:'Rs.1399' , Discount:'30% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/7208127/2018/8/23/5dbc44c4-d171-4559-9944-37ce3dd1437f1535005234548-na-6341535005234394-1.jpg',Gender:'Women',id:2,Brand:'van heusen',Sort:'Popularity'},
+    {name:'PIKO' , sub:'Slim Fit Casual Shirt' , price:3777 , OriginalP:'Rs.1399' , Discount:'40% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN',Brand:'roadster'},
+    {name:'PIKO' , sub:'Slim Fit Casual Shirt' , price:1500 , OriginalP:'Rs.1399' , Discount:'30% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN',Brand:'indian terrain',Sort:'Recommended'},
     {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:3777 , OriginalP:'Rs.1399' , Discount:'20% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN', Brand:'roadster',Sort:'Recommended'},
-    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:999 , OriginalP:'Rs.1399' , Discount:'30% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN',Brand:'roadster',Sort:'Popularity'},
-    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:3777 , OriginalP:'Rs.1399' , Discount:'40% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/7208127/2018/8/23/5dbc44c4-d171-4559-9944-37ce3dd1437f1535005234548-na-6341535005234394-1.jpg',Gender:'WOMEN',id:2,Brand:'van heusen'},
-    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:3777 , OriginalP:'Rs.1399' , Discount:'10% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/7208127/2018/8/23/5dbc44c4-d171-4559-9944-37ce3dd1437f1535005234548-na-6341535005234394-1.jpg',Gender:'WOMEN',id:2,Brand:'roadster'},
+    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:1500 , OriginalP:'Rs.1399' , Discount:'30% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/17504828/2022/3/12/090c9189-7ccb-4311-b305-3c747321a6b81647092855436KETCHMenRedSlimFitTartanChecksCheckedCasualShirt1.jpg',id:4,Gender:'MEN',Brand:'roadster',Sort:'Popularity'},
+    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:3777 , OriginalP:'Rs.1399' , Discount:'40% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/7208127/2018/8/23/5dbc44c4-d171-4559-9944-37ce3dd1437f1535005234548-na-6341535005234394-1.jpg',Gender:'Women',id:2,Brand:'van heusen'},
+    {name:'LOCOMOTIVE' , sub:'Slim Fit Casual Shirt' , price:3777 , OriginalP:'Rs.1399' , Discount:'10% OFF' , rating:'4',Fit:'Slim Fit',Length:'Regular' , imgURL:'https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/7208127/2018/8/23/5dbc44c4-d171-4559-9944-37ce3dd1437f1535005234548-na-6341535005234394-1.jpg',Gender:'Women',id:2,Brand:'roadster'},
 
 ] ;
 
@@ -63,23 +63,7 @@ export const Sort = [
   }
   ];
 
-export const Price =[
-    {
-        id:1,
-        value:'999-1999',
-        label:'999'
-    },
-    {
-        id:2,
-        value:'1999-2999',
-        label:'1999-2999'
-    },
-    {
-        id:3,
-        value:'2999-3999',
-        label:'2999-3999'
-    }
-];
+
 
 
 export const images= [

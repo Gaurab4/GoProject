@@ -37,7 +37,7 @@ const Product = () => {
           id:2,
         checked:false,
         label:'1999-2999',
-          label1:999,
+          label1:1500,
           label2:2999
       },
       {
@@ -59,6 +59,10 @@ const Product = () => {
         { id: 1, checked: false, name:'LOCOMOTIVE' },
         { id: 2, checked: false, name:'Mast & Harbour' },
         { id: 3, checked: false, name:'RARE RABBIT' },
+        {id:4 , checked:false , name:'ADI'},
+        {id:5,checked:false,name:'PIKO'},
+        {id:6, checked:false,name:'Nike 12'}
+
       ]);
     
       const handleSelectGender = (event, value) =>
