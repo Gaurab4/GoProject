@@ -102,7 +102,8 @@ selectSort,
 
 
     <FormControl fullWidth  sx={{ ml: '15%', mt: 0, height: 80, borderRadius: 50 }} >
-    <Select sx={{maxWidth:250 ,ml:0,mt:3, height:40 , justifyContent:'left'}}
+    <Typography sx ={{fontWeight:'bold' , fontSize:'15px',mt:1,mb:0,pb:0}}>Sort By:</Typography>
+    <Select sx={{maxWidth:250 ,ml:0,mt:0, height:40 , justifyContent:'left'}}
         fullWidth
         labelId="simple-select-label"
         id="simple-select"
