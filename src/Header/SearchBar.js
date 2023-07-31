@@ -18,7 +18,7 @@ const SearchBar = ({ selectValue }) => {
         sx={{width:'150%' ,'@media (max-width: 600px )': {
           flexDirection: 'column',
           alignItems: 'center',
-        
+          ml:2,
           height: 'auto',
         },}}
           variant="outlined"

@@ -107,7 +107,7 @@ height: '115px',
         '@media (max-width: 600px)': {
 
           flexDirection: 'column',  
-          ml:18,
+          ml:10,
           mt:2,
           mb:0,
           p:0,
@@ -134,7 +134,7 @@ height: '115px',
             boxShadow: 'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px',
           }}
           trigger={
-            <Card elevation="0" sx={{ p: 2 }}>
+            <Card elevation="0" sx={{cursor:'pointer', p: 2 }}>
               <FavoriteBorderIcon />
               <Typography sx={{ m: 0, fontWeight: 'bold', fontSize: '14px' }}>Wish</Typography>
             </Card>
@@ -153,7 +153,7 @@ height: '115px',
             boxShadow: 'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px',
           }}
           trigger={
-            <Card elevation="0" sx={{ p: 2 }}>
+            <Card elevation="0" sx={{ cursor:'pointer', p: 2 }}>
               <ShoppingBagOutlinedIcon />
               <Typography sx={{ m: 0, fontWeight: 'bold', fontSize: '14px' }}>Bag</Typography>
             </Card>

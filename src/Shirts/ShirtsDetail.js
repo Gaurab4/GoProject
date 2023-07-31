@@ -8,12 +8,16 @@ import ImageList from './ImageList';
 import { images } from '../utils/constants';
 import { useCart } from "react-use-cart";
 import Header from '../Header/Header';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 const ShirtsDetail = () => {
     const  { addItem } = useCart();
     const Prod = useLocation();
     const Details = Prod.state;
     const [isClicked, setIsClicked] = useState(false);
+    const [isFavorite, setIsFavorite] = useState(false);
+    const [selectedSize, setSelectedSize] = useState('');
+    const [prevSelectedSize, setPrevSelectedSize] = useState('');
     let imm=[];
     const applyImages = () => {    
         imm = images.filter((item) => (item.id) === (Details.id) 
@@ -25,16 +29,23 @@ const ShirtsDetail = () => {
     const handleButtonClick = (event ,value) => {
         
         setIsClicked((prevState) => ({ ...prevState, [value]: !prevState[value] }));
+      
       };
     
+      const handleAddToWishlist = () => {
+        addItem(Details)
+        setIsFavorite((prevIsFavorite) => !prevIsFavorite);
+      };
+    
+      
     
   return (
     <>
 <Header/>
-<Grid container sx={{pt: 5}} >
-     <Grid item xs={12}  md={7 }>
+<Grid container sx={{pt: 2, ml:0,p:0}} >
+     <Grid item xs={12}  sx={{ml:0,m:0}} md={7 }>
     
-            <ImageList images = {imm} />
+            <ImageList images = {imm} sx={{width:{xs:'70vw'}}} />
     
      </Grid>
      <Grid item xs={12} md={5} sx={{ padding: { xs: '16px' } }}>
@@ -87,8 +98,8 @@ const ShirtsDetail = () => {
                     <ShoppingBagIcon sx={{color: 'white'}}/>
                     <Typography sx={{ml:2,fontWeight:'bold' , color:'white'}}>ADD TO BAG</Typography>
                     </Button>
-                    <Button onClick={()=>addItem(Details)} sx={{borderRadius:'2%', color:'black',border:1,height:60,width:'200px', mr:2}}>
-                    <FavoriteBorderOutlinedIcon/>
+                    <Button onClick={handleAddToWishlist} sx={{borderRadius:'2%', color:'black',border:1,height:60,width:'200px', mr:2}}>
+                    {isFavorite ? <FavoriteIcon /> : <FavoriteBorderOutlinedIcon />}
                     <Typography sx={{ml:2,fontWeight:'bold' }}>WISHLIST</Typography>
                      </Button>    
                 </Paper>

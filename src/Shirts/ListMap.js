@@ -17,14 +17,14 @@ const ListMap = ({list} , handleImage) => {
             <Card  onChange={handleImage}  hoverable sx ={{ '@media (max-width: 600px)': {
           flexDirection: 'row',
           alignItems: 'center',
-          ml:15,
+          ml:6,
           height: 'auto',
         }, maxWidth:220,textDecoration:'none',height:450 ,borderRadius:0 ,boxShadow:0}}>
             <Link to={'/dash'} state={product}  >
             <Box
-        boxShadow={2} // Add the box shadow here
-        borderRadius={2} // Optional: Add border radius for a rounded look
-        bgcolor="white" // Optional: Set background color
+        boxShadow={2}
+        borderRadius={2} 
+        bgcolor="white" 
       >
         <CardMedia
         
