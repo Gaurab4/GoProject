@@ -18,10 +18,10 @@ const ImageList = ({ images }) => {
 
   return (
     <>
-      <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(460px, 1fr))', gridGap: '15px', pt: 2 }}>
+      <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(390px, 1fr))', gridGap: '15px', pt: 2 }}>
         {images[0].url.map((image, index) => (
           <Card key={index} hoverable sx={{ maxWidth: 1030, height: 650, borderRadius: 0, boxShadow: 0 }}>
-            <CardMedia sx={{ cursor:'zoom-in', height: 680, width: 410 }} image={image} onClick={() => handleImageClick(image)} />
+            <CardMedia sx={{ cursor:'zoom-in', height: 680}} image={image} onClick={() => handleImageClick(image)} />
           </Card>
         ))}
       </Box>
@@ -35,7 +35,7 @@ const ImageList = ({ images }) => {
           >
             <CloseIcon />
           </IconButton>
-          <img src={selectedImage} alt="Enlarged" style={{ width: '90%', height: '110vh', objectFit: 'contain' }} />
+          <img src={selectedImage} alt="Enlarged" style={{ width: '100%', height: '100vh', objectFit: 'contain' }} />
         </DialogContent>
       </Dialog>
     </>

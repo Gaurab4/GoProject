@@ -109,7 +109,7 @@ const Product = () => {
 
     
 
-      const applyFilters = () => {
+  const applyFilters = () => {
         let updatedList = products;
 
       

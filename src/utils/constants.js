@@ -120,33 +120,3 @@ export const images= [
     }
 
 ]
-// Pink Girl
-// 
-//BlackGirl 
-
-//url()
-//url()
-// url()
-//url()
-//url()
-
-//Green Guy 
-//url()
-//url()
-//url()
-//url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2021/6/1/6e2b99db-8e0c-4c8e-ab89-feff3637b98a1622551980037-5.jpg")
-//url()
-
-//red guy 
-//url()
-//url(
-
-//url()
-//url()
-//url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/17504828/2022/3/12/bb2dfdbe-7608-4c9b-a93b-8a507add5b031647092855419KETCHMenRedSlimFitTartanChecksCheckedCasualShirt6.jpg")
-
-// rare 
-// url()
-// url()
-// url()
-// url()

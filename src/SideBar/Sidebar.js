@@ -5,6 +5,7 @@ import {  Gender } from '../utils/constants';
 import { BrandList } from './BrandList';
 import { DiscountList } from './DiscountList';
 import { PriceList } from './PriceList';
+import { FilterItemList, SimilarList } from './FilterItemList';
 
 const Sidebar = ({
   selectedGender,
@@ -42,29 +43,29 @@ const Sidebar = ({
         
         <Typography sx={{ml:3 , fontWeight:'bold' , fontSize:'15px'}}>Brand</Typography>
           {Brands.map((Brand)=>(
-            <BrandList
+            <FilterItemList
             key={Brand.id}
-            Brand = {Brand} 
-              changeChecked ={changeChecked}
+            item = {Brand} 
+              change ={changeChecked}
             />
             ))}
         
         <Divider/>
         <Typography sx={{ml:3 , fontWeight:'bold' , fontSize:'15px'}}>Price </Typography>
         {Price.map((Pri) => (
-            <PriceList
+            <FilterItemList
                 key={Pri.id}
-                Price = {Pri}
-                changeCheckedPrice={changeCheckedPrice}
+                item = {Pri}
+                change={changeCheckedPrice}
               />
           ))}
         <Divider/>
         <Typography sx={{ml:3 , fontWeight:'bold' , fontSize:'15px'}}>Discount </Typography>
           {Discounts.map((Discount) => (
-            <DiscountList
+            <FilterItemList
                 key={Discount.id}
-                Discount = {Discount}
-                changeCheckedDiscount={changeCheckedDiscount}
+                item = {Discount}
+                change={changeCheckedDiscount}
               />
           ))}
       
