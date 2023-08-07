@@ -98,7 +98,7 @@ selectSort,
 
 
 
-
+{/* Sort Bar  */}
 
 
     <FormControl fullWidth  sx={{ ml: '15%', mt: 0, height: 80, borderRadius: 50 }} >
@@ -108,20 +108,14 @@ selectSort,
         labelId="simple-select-label"
         id="simple-select"
         
-      >
+    >
         <SortList 
          option={Sort}
          value={selectedSort}
          selectToggle={selectSort}
          label="Sort By"
         
-         />
-        
-        
-    
-            
-            
-            
+        />
 
       </Select>
       

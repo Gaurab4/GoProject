@@ -5,9 +5,7 @@ import ListMap from '../Shirts/ListMap';
 
 const SearchBar = ({ selectValue }) => {
   
-
   const handleChange = (value) => {
-    
     selectValue(value);
   };
 

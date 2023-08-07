@@ -23,7 +23,7 @@ const WishList = () => {
           <CardContent sx={{direction:'row'}}>
             <Typography>Name: {item.name}</Typography>
             <Typography>Price: {item.price}</Typography>
-            <Typography>Size: {item.Size}</Typography>
+          
           </CardContent>
           <Paper  elevation={0} sx={{width:'40%'}}>
               <Button sx={{backgroundColor:'blue','&:hover': {

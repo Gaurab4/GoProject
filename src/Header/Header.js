@@ -25,17 +25,15 @@ const Header = ({ selectValue }) => {
       css={{ zIndex: 1}}
       sx={{
         '@media (max-width: 900px)': {
-
-flexDirection: 'row',  
-ml:0  ,
-mr:0,
-mt:0,
-p:0,
-alignContent:'center',
-alignItems: 'center',
-height: '125px',
-
-},
+          flexDirection: 'row',  
+          ml:0  ,
+          mr:0,
+          mt:0,
+          p:0,
+          alignContent:'center',
+          alignItems: 'center',
+          height: '125px',
+        },
         '@media (max-width: 600px)': {
           flexDirection: 'row',
           alignItems: 'center',
@@ -50,7 +48,9 @@ height: '125px',
         mb:2
       }}
     >
-      {/* Nav Options  */}
+
+    {/* Nav Options  */}
+
       <Paper elevation="0" sx={{  
           ml:5,
            }} >
@@ -94,18 +94,16 @@ height: '125px',
       {/* Profiles Tabs and options  */}
       <Stack direction="row" sx={{
         '@media (max-width: 900px)': {
+          flexDirection: 'column',  
+          ml:5  ,
+          mt:0,
+          p:3,
+          alignContent:'center',
+          alignItems: 'center',
+          height: '115px',
 
-flexDirection: 'column',  
-ml:5  ,
-mt:0,
-p:3,
-alignContent:'center',
-alignItems: 'center',
-height: '115px',
-
-},
+        },
         '@media (max-width: 600px)': {
-
           flexDirection: 'column',  
           ml:10,
           mt:2,
@@ -115,6 +113,7 @@ height: '115px',
           alignItems: 'center',
           height: '120px',
         }, justifyContent:  'space-between' }}>
+        
         <Card elevation="0" alignItems="center" sx={{ p: 2 }}>
           <Person2OutlinedIcon  />
           <Typography sx={{ m: 0, fontWeight: 'bold', fontSize: '14px' }}>Profile</Typography>
